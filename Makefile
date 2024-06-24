@@ -6,7 +6,7 @@
 #    By: aalhalab <aalhalab@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2024/05/14 15:06:13 by aalhalab          #+#    #+#              #
-#    Updated: 2024/06/18 16:34:20 by aalhalab         ###   ########.fr        #
+#    Updated: 2024/06/20 13:40:22 by aalhalab         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -15,7 +15,7 @@ CFLAGS	:= -Wextra -Wall -Werror -Wunreachable-code -Ofast
 LIBMLX	:= ./MLX42
 
 HEADERS	:= -I ./include -I $(LIBMLX)/include
-SRCS	:= $(shell find ./src -iname "*.c")
+SRCS	:= main.c
 LIBS	:= $(LIBMLX)/build/libmlx42.a -ldl -lglfw -pthread -lm
 OBJS	:= ${SRCS:.c=.o}
 
