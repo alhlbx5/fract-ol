@@ -1,0 +1,10 @@
+{
+    "files.associations": {
+        "*.a": "cpp",
+        "fractol.h": "c",
+        "stdlib.h": "c",
+        "stdbool.h": "c",
+        "math.h": "c",
+        "mlx42.h": "c"
+    }
+}
